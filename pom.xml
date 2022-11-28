@@ -86,11 +86,6 @@
                             <webAppConfig>
                                 <contextPath>/jesque-web</contextPath>
                             </webAppConfig>
-                            <connectors>
-                                <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
-                                    <port>8888</port>
-                                </connector>
-                            </connectors>
                             <webAppSourceDirectory>${project.build.directory}/${project.build.finalName}</webAppSourceDirectory>
                         </configuration>
                         <executions>
